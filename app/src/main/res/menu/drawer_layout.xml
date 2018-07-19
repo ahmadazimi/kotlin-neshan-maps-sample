@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawLine"
+        android:icon="@drawable/ic_line"
+        android:title="@string/drawLine" />
+
+    <item
+        android:id="@+id/chooseLocation"
+        android:icon="@drawable/ic_touch_location"
+        android:title="@string/chooseLocation" />
+
+    <item
+        android:id="@+id/mapTilt"
+        android:icon="@drawable/ic_map"
+        android:title="@string/mapTilt" />
+
+    <item
+        android:id="@+id/northLock"
+        android:icon="@drawable/ic_compass"
+        android:title="@string/north" />
+
+
+    <item
+        android:id="@+id/themeDayStandard"
+        android:icon="@drawable/ic_sun"
+        android:title="@string/themeStandard" />
+
+    <item
+        android:id="@+id/themeNightStandard"
+        android:icon="@drawable/ic_night"
+        android:title="@string/themeStandardNight" />
+
+    <item
+        android:id="@+id/themeNeshan"
+        android:icon="@drawable/ic_navigator"
+        android:title="@string/themeNeshan" />
+
+    <item
+        android:id="@+id/sourceCode"
+        android:icon="@drawable/ic_code"
+        android:title="@string/sourceCode" />
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_info_outline"
+        android:title="@string/info" />
+
+</menu>

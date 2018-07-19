@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Neshan Kotlin Sample</string>
+    <string name="drawLine">کشیدن خط</string>
+    <string name="chooseLocation">انتخاب موقعیت</string>
+    <string name="mapTilt">شیب نقشه</string>
+    <string name="north">شمال</string>
+    <string name="themeStandard">پوسته استاندارد روز</string>
+    <string name="themeStandardNight">پوسته استاندارد شب</string>
+    <string name="themeNeshan">پوسته نشان</string>
+    <string name="sourceCode">متن برنامه</string>
+    <string name="info">درباره</string>
+    <string name="neshanPlatform">زیر ساخت توسعه نقشه «نشان»</string>
+    <string name="current_location">موقعیت فعلی</string>
+</resources>
