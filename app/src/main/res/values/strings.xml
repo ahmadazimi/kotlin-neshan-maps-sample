@@ -9,6 +9,10 @@
     <string name="themeNeshan">پوسته نشان</string>
     <string name="sourceCode">متن برنامه</string>
     <string name="info">درباره</string>
-    <string name="neshanPlatform">زیر ساخت توسعه نقشه «نشان»</string>
+    <string name="neshanPlatform">
+        Kotlin Sample
+        \n
+        زیرساخت توسعه نقشه «نشان»
+    </string>
     <string name="current_location">موقعیت فعلی</string>
 </resources>
