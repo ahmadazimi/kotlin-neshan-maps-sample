@@ -77,9 +77,9 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         /** layers.insert
         when you insert a layer in index i, index (i - 1) should exist
         keep base map layer at index 0
-        ********
-            layers.add
-         suppose map has k layers right now, new layer adds in index (k + 1)
+         ********
+        layers.add
+        suppose map has k layers right now, new layer adds in index (k + 1)
          */
         mapView.layers.insert(BASE_MAP_INDEX, NeshanServices.createBaseMap(NeshanMapStyle.STANDARD_DAY))
         setMapBounds()
@@ -175,9 +175,12 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 mapView.layers.insert(0, NeshanServices.createBaseMap(NeshanMapStyle.STANDARD_NIGHT))
             }
 
+            R.id.sourceCode -> {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/NeshanMaps/kotlin-neshan-maps-sample")))
+            }
+
             R.id.info -> {
-                intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.neshan.org/"))
-                startActivity(intent)
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.neshan.org/")))
             }
         }
 
